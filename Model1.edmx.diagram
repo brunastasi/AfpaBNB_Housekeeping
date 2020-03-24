@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7d9b78293ce0457297bdac36911218b6" Name="Diagram1">
+        <EntityTypeShape EntityType="AfpaBNBModel.Admin" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AfpaBNBModel.Adresse" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AfpaBNBModel.Avi" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AfpaBNBModel.Client" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="AfpaBNBModel.DispoHeberg" Width="1.5" PointX="3" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AfpaBNBModel.Favori" Width="1.5" PointX="7.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AfpaBNBModel.Hebergement" Width="1.5" PointX="0.75" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="AfpaBNBModel.Messagerie" Width="1.5" PointX="5.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AfpaBNBModel.Reservation" Width="1.5" PointX="5.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AfpaBNBModel.Saison" Width="1.5" PointX="3" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AfpaBNBModel.sysdiagram" Width="1.5" PointX="7.75" PointY="6.75" IsExpanded="true" />
+        <AssociationConnector Association="AfpaBNBModel.FK_Messagerie_Client" ManuallyRouted="false" />
+        <AssociationConnector Association="AfpaBNBModel.FK_Messagerie_Client1" ManuallyRouted="false" />
+        <AssociationConnector Association="AfpaBNBModel.FK_DispoHeberg_Hebergement" ManuallyRouted="false" />
+        <AssociationConnector Association="AfpaBNBModel.FK_Saison_Hebergement" ManuallyRouted="false" />
+        <AssociationConnector Association="AfpaBNBModel.ClientAdresse" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
